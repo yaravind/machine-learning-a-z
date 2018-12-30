@@ -38,3 +38,7 @@ Another way to group ML algorithms is **by the way they learn**
     2. Variance error
     3. Irreducible error
 
+## Induction and Deduction
+Induction refers to learning general concepts from specific examples. Deduction seeks to learn specific concepts from general rules.
+
+**The GOAL of good ML model is to generalize well from the training data to any data from the problem domain.**
