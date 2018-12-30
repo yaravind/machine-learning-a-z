@@ -5,8 +5,8 @@ Two main classes of ML algorithms
 
 Comparison  | Parametric | Nonparametric
 ----------  | ----------- | ---------------
-Benefits    | easier to understand | 
-            | easier to interpret results | 
+Benefits    | easier to understand | &nbsp;
+        &nbsp;    | easier to interpret results | 
             | faster to learn from data |
             | can work with less training data | 
             | can work well even if the fit to the data isn't perfect | 
