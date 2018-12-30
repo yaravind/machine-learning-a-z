@@ -10,8 +10,7 @@ about how many parameters it needs. — Artificial Intelligence: A Modern Approa
 
 Nonparametric
 
->
-Nonparametric methods are good when you have a lot of data and no prior knowledge, and when you don’t want to worry too much about choosing just the right features. — Artificial Intelligence: A Modern Approach, page 757
+>Nonparametric methods are good when you have a lot of data and no prior knowledge, and when you don’t want to worry too much about choosing just the right features. — Artificial Intelligence: A Modern Approach, page 757
 
 Comparison  | Parametric | Nonparametric
 ----------  | ----------- | ---------------
