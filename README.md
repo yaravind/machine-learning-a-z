@@ -3,7 +3,7 @@ Notebooks for https://www.youtube.com/playlist?list=PLBjazsVtMXXvl9miqmU2LTHNOnG
 
 Two main classes of ML algorithms
 
-            | Parametric | Nonparametric
+Comparison  | Parametric | Nonparametric
 ----------  | ----------- | ---------------
 Benefits    | easier to understand | 
             | easier to interpret results | 
