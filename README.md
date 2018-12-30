@@ -29,3 +29,12 @@ Another way to group ML algorithms is **by the way they learn**
 - Supervised
 - Unsupervised
 - Semi-Supervised
+
+## Bias and Variance
+- All *learning* error can be broken down into bias or variance error
+- *Bias* and *Variance* provide the tools to understand the behavior of ML algorithms in the pursuit of predictive performance. Increasing the bias will decrease the variance. Increasing the variance will decrease the bias.
+- The *prediction* error for any ML algorithm can be broken down into 3 parts:
+    1. Bias error
+    2. Variance error
+    3. Irreducible error
+
