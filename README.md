@@ -1,7 +1,17 @@
 # machine-learning-a-z
-Notebooks for https://www.youtube.com/playlist?list=PLBjazsVtMXXvl9miqmU2LTHNOnGGB7Yoa
+Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclhPfG31KRExnNovDGE-ipPpKp9nRe2V)
 
 Two main classes of ML algorithms
+
+Parametric
+
+> A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a parametric model. No matter how much data you throw at a parametric model, it won’t change its mind
+about how many parameters it needs. — Artificial Intelligence: A Modern Approach, page 737
+
+Nonparametric
+
+>
+Nonparametric methods are good when you have a lot of data and no prior knowledge, and when you don’t want to worry too much about choosing just the right features. — Artificial Intelligence: A Modern Approach, page 757
 
 Comparison  | Parametric | Nonparametric
 ----------  | ----------- | ---------------
