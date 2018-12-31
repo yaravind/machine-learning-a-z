@@ -42,3 +42,5 @@ Another way to group ML algorithms is **by the way they learn**
 Induction refers to learning general concepts from specific examples. Deduction seeks to learn specific concepts from general rules.
 
 **The GOAL of good ML model is to generalize well from the training data to any data from the problem domain.**
+
+**A fit referes to how well you approximate a target function**
