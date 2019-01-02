@@ -44,3 +44,10 @@ Induction refers to learning general concepts from specific examples. Deduction 
 **The GOAL of good ML model is to generalize well from the training data to any data from the problem domain.**
 
 **A fit referes to how well you approximate a target function**
+
+## Formulae
+
+!(Partial Derivative)[https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png]
+!(Mean Squared Error)[https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png]
+
+
