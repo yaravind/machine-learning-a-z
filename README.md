@@ -47,7 +47,10 @@ Induction refers to learning general concepts from specific examples. Deduction 
 
 ## Formulae
 
-!(Partial Derivative)[https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png]
-!(Mean Squared Error)[https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png]
+
+![Mean Squared Error](https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png)
+
+Used in Gradient Descent algorithm
+![Partial Derivative](https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png)
 
 
