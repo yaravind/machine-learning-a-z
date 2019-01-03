@@ -54,5 +54,3 @@ Mean Squared Error
 Partial Derivate for *m* and *b* (Used in Gradient Descent algorithm)
 
 ![Partial Derivative](https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png)
-
-$ \frac{\partial L}{\partial b} = \frac{2}{N} \sum{-(y - (b + wx))}$
