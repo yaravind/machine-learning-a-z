@@ -27,13 +27,7 @@ Now, we want to estimate `m`. There are many ways to estimate `m`, however, we w
 
 `â` = f(x) = b + mx
 
-2
-
-![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7Ba%7D%7D)
-
-3
-
-<!-- \hat{\mathbf{a}} -->
+![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7Ba%7D%7D) = b + mx
 
 Note that $\hat{y}$ is just an approximation of the true value $y$. We can define the loss function as follows.
 
