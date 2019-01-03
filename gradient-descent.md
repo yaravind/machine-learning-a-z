@@ -23,13 +23,13 @@ where,
 - `x` is the an independent variable value, and
 - `y` is the predicted, dependent variable value.
 
-Now, we want to estimate `m`. There are many ways to estimate `m`, however, we want to use gradient descent to do so (we will not go into the other ways to estimate `m`). The first thing we have to do is to be able to formulate a loss function. Let's introduce some convenience notation. Assume y&#770  is what the model predicts as follows.
+Now, we want to estimate `m`. There are many ways to estimate `m`, however, we want to use gradient descent to do so (we will not go into the other ways to estimate `m`). The first thing we have to do is to be able to formulate a loss function. Let's introduce some convenience notation. Assume y&#770;  is what the model predicts as follows.
 
-y&#770 `= f(x) = b + mx`
+`y&#770; = f(x) = b + mx`
 
 Note that ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)  is just an approximation of the true value `y`. We can define the loss function as follows.
 
-L(![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) , y) = (y - ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D`) )^2 = (y - (b + mx))^2
+L(![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) , y) = (y - ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) )^2 = (y - (b + mx))^2
 
 The loss function essentially measures the error of the model; the difference in what it predicts ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)  and the true value `y`. Note that we square the difference between `y` and ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)  as a convenience to get rid of the influence of negative differences. This loss function tells us how much error there is in each of our prediction given our model (the model includes the linear relationship and weight). Since typically we are making several predictions, we want an overall estimation of the error.
 
