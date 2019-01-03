@@ -43,7 +43,7 @@ If we are asked to find the minimum of such a function, we already know that the
 
 However, our situation is slightly different because we need to find `b` and `m` to minimize the loss function. The simplest way to find the minimum of the loss function would be to exhaustively iterate through every combination of `b` and `m` and see which pair gives us the minimum value. But such approach is computationally expensive. A smart way would be to take the first order partial derivatives of `L` with respect to `b` and `m`, and search for values that will minimize simultaneously the partial derivatives.
 
-*`dL/db`* = `\frac{2}{N} \sum{-(y - (b + wx))}`
+*`dL/db`*` = \frac{2}{N} \sum{-(y - (b + wx))}`
 
 $ \frac{\partial L}{\partial w} = \frac{2}{N} \sum{-x (y - (b + wx))}$
 
