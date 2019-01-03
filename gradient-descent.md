@@ -33,7 +33,7 @@ L(![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) , y) 
 
 The loss function essentially measures the error of the model; the difference in what it predicts ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)  and the true value `y`. Note that we square the difference between `y` and ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)  as a convenience to get rid of the influence of negative differences. This loss function tells us how much error there is in each of our prediction given our model (the model includes the linear relationship and weight). Since typically we are making several predictions, we want an overall estimation of the error.
 
-L(![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) , Y) = 1/N Σ{(y - ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)^2} = 1/N Σ{(y - (b + mx))^2}
+L(![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) , Y) = 1/N Σ{(y - ![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D)^2} = 1/N Σ(y - (b + mx))^2
 
 But how does this loss function really guides us to learn or estimate `m`? The best way to understand how the loss function guides us in estimating or learning the weight `m` is visually. The loss function, in this case, is convex (U-shaped). Notice that the functional form of the loss function is just a squared function not unlike the following.
 
@@ -43,24 +43,23 @@ If we are asked to find the minimum of such a function, we already know that the
 
 However, our situation is slightly different because we need to find `b` and `m` to minimize the loss function. The simplest way to find the minimum of the loss function would be to exhaustively iterate through every combination of `b` and `m` and see which pair gives us the minimum value. But such approach is computationally expensive. A smart way would be to take the first order partial derivatives of `L` with respect to `b` and `m`, and search for values that will minimize simultaneously the partial derivatives.
 
-*`dL/db`*` = \frac{2}{N} \sum{-(y - (b + wx))}`
-
-$ \frac{\partial L}{\partial w} = \frac{2}{N} \sum{-x (y - (b + wx))}$
+*`dL/db`*` = 2/N * Σ-(y - (b + mx))`
+*`dL/db`*` = 2/N * Σ-x(y - (b + mx))`
 
 Remember that the first order derivative gives us the slope of the tanget line to a point on the curve.
 
-At this point, the gradient descent algorithm comes into play to help us by using those slopes to move towards the minimum. We already have the training data composed of $N$ pairs of $(y, x)$, but we need to find a pair $b$ and $w$ such that when plugged into the partial derivative functions will minimize the functions. The algorithm for the gradient descent algorithm is as follows.
+At this point, the gradient descent algorithm comes into play to help us by using those slopes to move towards the minimum. We already have the training data composed of `N` pairs of  `(y, x)`, but we need to find a pair `b` and `m` such that when plugged into the partial derivative functions will minimize the functions. The algorithm for the gradient descent algorithm is as follows.
 
-given
-$(X, Y)$ data of $N$ observations,
-$b$ initial guess,
-$w$ initial guess, and
-$\alpha$ learning rate
-repeat until convergence
-$\nabla_b = 0$
-$\nabla_w = 0$
-for each $(x, y)$ in $(X, Y)$
-$\nabla_b = \nabla_b - \frac{2}{N} (y - (b + wx))$
-$\nabla_w = \nabla_w - \frac{2}{N} x (y - (b + wx))$
-$b = b - \alpha \nabla_b$
-$w = w - \alpha \nabla_w$
+- given
+    - `(X, Y)` data of  `N` observations,
+    - `b` initial guess,
+    - `m` initial guess, and
+    - `α` learning rate
+- repeat until convergence
+    - $\nabla_b = 0
+    - $\nabla_m = 0
+        - for each `(x, y)` in `(X, Y)`
+            - $\nabla_b = \nabla_b - \frac{2}{N} (y - (b + mx))
+            - $\nabla_m = \nabla_w - \frac{2}{N} x (y - (b + mx))
+        - b = b - \alpha \nabla_b
+        - m = m - \alpha \nabla_w
