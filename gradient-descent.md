@@ -25,9 +25,7 @@ where,
 
 Now, we want to estimate `m`. There are many ways to estimate `m`, however, we want to use gradient descent to do so (we will not go into the other ways to estimate `m`). The first thing we have to do is to be able to formulate a loss function. Let's introduce some convenience notation. Assume \hat{y} is what the model predicts as follows.
 
-`â` = f(x) = b + mx
-
-![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7Ba%7D%7D) = b + mx
+![hat](http://latex.codecogs.com/svg.latex?%5Chat%7B%5Cmathbf%7By%7D%7D) = f(x) = b + mx
 
 Note that $\hat{y}$ is just an approximation of the true value $y$. We can define the loss function as follows.
 
