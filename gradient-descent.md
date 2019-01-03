@@ -56,10 +56,10 @@ At this point, the gradient descent algorithm comes into play to help us by usin
     - `m` initial guess, and
     - `α` learning rate
 - repeat until convergence
-    - ∇b = 0
-    - ∇m = 0
+    - `∇ b = 0`
+    - `∇ m = 0`
         - for each `(x, y)` in `(X, Y)`
-            - $\nabla_b = \nabla_b - \frac{2}{N} (y - (b + mx))
-            - $\nabla_m = \nabla_w - \frac{2}{N} x (y - (b + mx))
-        - b = b - \alpha \nabla_b
-        - m = m - \alpha \nabla_w
+            - `∇ b = ∇ b - 2/N * (y - (b + mx))`
+            - `∇ m = ∇ m - 2/N * x(y - (b + mx))`
+        - `b = b - α * ∇ b`
+        - `m = m - α * ∇ m`
