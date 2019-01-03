@@ -28,9 +28,9 @@ Now, we want to estimate `m`. There are many ways to estimate `m`, however, we w
 y&#770; `= f(x) = b + mx`
 
 Note that y&#770;  is just an approximation of the true value `y`. We can define the loss function as follows.
-
+```
 L(y&#770;, y) = (y - y&#770;)^2 = (y - (b + mx))^2
-
+```
 The loss function essentially measures the error of the model; the difference in what it predicts y&#770;  and the true value `y`. Note that we square the difference between `y` and y&#770; as a convenience to get rid of the influence of negative differences. This loss function tells us how much error there is in each of our prediction given our model (the model includes the linear relationship and weight). Since typically we are making several predictions, we want an overall estimation of the error.
 
 L(y&#770;, Y) = 1/N Σ{(y - y&#770;)^2 = 1/N Σ(y - (b + mx))^2
