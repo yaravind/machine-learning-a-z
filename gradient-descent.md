@@ -43,8 +43,8 @@ If we are asked to find the minimum of such a function, we already know that the
 
 However, our situation is slightly different because we need to find `b` and `m` to minimize the loss function. The simplest way to find the minimum of the loss function would be to exhaustively iterate through every combination of `b` and `m` and see which pair gives us the minimum value. But such approach is computationally expensive. A smart way would be to take the first order partial derivatives of `L` with respect to `b` and `m`, and search for values that will minimize simultaneously the partial derivatives.
 
-*`dL/db`*` = 2/N * Σ-(y - (b + mx))`
-*`dL/db`*` = 2/N * Σ-x(y - (b + mx))`
+1. *`dL/db`*` = 2/N * Σ-(y - (b + mx))`
+2. *`dL/db`*` = 2/N * Σ-x(y - (b + mx))`
 
 Remember that the first order derivative gives us the slope of the tanget line to a point on the curve.
 
@@ -56,8 +56,8 @@ At this point, the gradient descent algorithm comes into play to help us by usin
     - `m` initial guess, and
     - `α` learning rate
 - repeat until convergence
-    - $\nabla_b = 0
-    - $\nabla_m = 0
+    - ∇b = 0
+    - ∇m = 0
         - for each `(x, y)` in `(X, Y)`
             - $\nabla_b = \nabla_b - \frac{2}{N} (y - (b + mx))
             - $\nabla_m = \nabla_w - \frac{2}{N} x (y - (b + mx))
