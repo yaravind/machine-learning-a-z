@@ -63,3 +63,13 @@ At this point, the gradient descent algorithm comes into play to help us by usin
             - `∇m = ∇m - 2/N * x(y - (b + mx))`
         - `b = b - α * ∇b`
         - `m = m - α * ∇m`
+        
+        
+        x-bar = x&#772; or x&#x0304; (hex)
+        
+        p-hat = x&#770; or x&#x0302; (hex)
+        
+        View Results
+        x-bar = x̄ or x̄ (hex)
+        
+        p-hat = p̂ or p̂ (hex)
