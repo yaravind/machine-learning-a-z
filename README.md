@@ -1,6 +1,9 @@
 # machine-learning-a-z
 Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclhPfG31KRExnNovDGE-ipPpKp9nRe2V)
 
+- [Gradient Descent Algorithm](https://github.com/yaravind/machine-learning-a-z/blob/master/gradient-descent.md)
+- [Batch vs Iteration vs Epoch](../blob/master/batch-iteration-epoch.md)
+
 Two main classes of ML algorithms
 
 Parametric
