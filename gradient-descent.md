@@ -2,6 +2,8 @@ Disclaimer: Copied from [ds  repo here](https://github.com/vangj/ds).
 
 # Gradient descent
 
+> The goal of the algorithm is to find model parameters (e.g. coefficients or weights) that minimize the error of the model on the training dataset. It does this by making changes to the model that move it along a gradient or slope of errors down toward a minimum error value. This gives the algorithm its name of “gradient descent.”
+
 Gradient descent is an optimization algorithm to find the minimum of some function. Typically, in machine learning, the function is a loss function, which essentially captures the difference between the true and predicted values. Gradient descent has many applications in machine learning and may be applied to (or is the heart and soul of) many machine learning approaches such as find weights for
 
 - regression,
@@ -63,7 +65,26 @@ At this point, the gradient descent algorithm comes into play to help us by usin
             - `∇m = ∇m - 2/N * x(y - (b + mx))`
         - `b = b - α * ∇b`
         - `m = m - α * ∇m`
-        
+
+## 3 Variatnts
+
+### Batch Gradient Descent
+
+Batch gradient descent computes the gradient using the **whole dataset**.
+
+### Stochastic Gradient Descent (SGD)
+
+Stochastic gradient descent computes the gradient using a **single sample**.
+
+### Mini-batch Gradient Descent
+
+Mini-Batch Gradient Descent splitting the dataset into small batches and then computes the gradient using the **small batch**.
+
+## Reference
+
+- [Explanation of algorithm](https://github.com/vangj/ds)
+- [Pros & Const of 3 variations](https://machinelearningmastery.com/gentle-introduction-mini-batch-gradient-descent-configure-batch-size/)
+- [Algorithm in Scala](https://www.zepl.com/viewer/notebooks/bm90ZTovL3lhcmF2aW5kLzJiMzMwN2MzMzMzNTQ0M2ZiOTg1ODA5NGNhNjBmMDBiL25vdGUuanNvbg)
         
         x-bar = x&#772; or x&#x0304; (hex)
         
