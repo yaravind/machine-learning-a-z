@@ -1,0 +1,5 @@
+- Logistic function is also called *sigmoid* function
+- It is an S-shaped curve that can take any real-valued number and map it into a value between 0 and 1, but never exactly at those limits
+- Models the probability of the default class (e.g. the first class). For e.g. if we are modeling people's sex as male or female from their height, then the default class clould be male and logistic regression model could be written as the probability of male given a person's height, or formally `P(sex = male | height)`
+- The coefficients of logistic regression are estimated from training data using **maximum-likelihood algorithm**
+- The accuracy can be calculated as `accuracy = (CorrectPredictions/TotalPredictions) * 100`
