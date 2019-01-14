@@ -5,6 +5,8 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 - [Logistic Regression](./logistic-regression.md)
 - [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
+>Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
+
 Two main classes of ML algorithms
 
 Parametric
