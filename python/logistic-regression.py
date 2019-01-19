@@ -10,7 +10,6 @@ def predict(row, coefficients):
         yhat += coefficients[i + 1] * row[i]
     return 1.0 / (1.0 + exp(-yhat))
 
-
 # Estimate logistic regression coefficients using stochastic gradient descent
 def coefficients_sgd(train, l_rate, n_epoch):
     coef = [0.0 for i in range(len(train[0]))]
@@ -25,7 +24,6 @@ def coefficients_sgd(train, l_rate, n_epoch):
                 coef[i + 1] = coef[i + 1] + l_rate * error * yhat * (1.0 - yhat) * row[i]
         print '>epoch=%d, lrate=%.3f, error=%.3f' % (epoch, l_rate, sum_error)
     return coef
-
 
 # Calculate coefficients
 dataset = [
