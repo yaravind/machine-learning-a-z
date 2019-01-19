@@ -4,9 +4,9 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 Linear Models
 
 - [Linear Regression]
-- [Gradient Descent Algorithm](./gradient-descent.md)
-- [Logistic Regression](./logistic-regression.md)
-- [Linear Discriminant Analysis](./lda.md)
+- [Gradient Descent Algorithm](./linear/gradient-descent.md)
+- [Logistic Regression](./linear/logistic-regression.md)
+- [Linear Discriminant Analysis](./llinear/da.md)
 - [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
 Non-linear Models
