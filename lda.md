@@ -4,6 +4,8 @@ LDA can be used for two-class or multi-class *classification* problems. LDA sear
 
 ![Intuition](https://www.python-course.eu/images/Linear_Discriminant_Analysis_concept_illustration.png)
 
+>Besides from classification also most commonly used as dimensionality reduction technique in the pre-processing step for pattern-classification and machine learning applications
+
 Assumptions
 
 - Classes are well seperable
@@ -15,3 +17,4 @@ Assumptions
 ## Reference
 
 - [Intuition](https://www.python-course.eu/linear_discriminant_analysis.php)
+- [Applications of LDA](https://people.revoledu.com/kardi/tutorial/LDA/Applications.html)
