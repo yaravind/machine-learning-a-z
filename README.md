@@ -15,7 +15,7 @@ Non-linear Models
 
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
 
-Two main classes of ML algorithms
+### Two main classes of ML algorithms
 
 Parametric
 
@@ -55,16 +55,12 @@ Another way to group ML algorithms is **by the way they learn**
 ## Induction and Deduction
 Induction refers to learning general concepts from specific examples. Deduction seeks to learn specific concepts from general rules.
 
-**The GOAL of good ML model is to generalize well from the training data to any data from the problem domain.**
-
-**A fit referes to how well you approximate a target function**
+## What is high dimensional data?
+We call data is high-dimensional if the number of features is greater than the number of observations or it could mean that you suspect there are noisy features that contain little information, or anything in between.
 
 ## Formulae
-
 Mean Squared Error
-
 ![Mean Squared Error](https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png)
 
 Partial Derivate for *m* and *b* (Used in Gradient Descent algorithm)
-
 ![Partial Derivative](https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png)
