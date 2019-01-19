@@ -6,7 +6,7 @@ Linear Models
 - [Linear Regression]
 - [Gradient Descent Algorithm](./linear/gradient-descent.md)
 - [Logistic Regression](./linear/logistic-regression.md)
-- [Linear Discriminant Analysis](./llinear/da.md)
+- [Linear Discriminant Analysis](./linear/lda.md)
 - [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
 Non-linear Models
