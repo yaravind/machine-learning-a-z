@@ -61,6 +61,7 @@ We call data is high-dimensional if the number of features is greater than the n
 ## Formulae
 
 Mean Squared Error
+
 ![Mean Squared Error](https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png)
 
 Partial Derivate for *m* and *b* (Used in Gradient Descent algorithm)
