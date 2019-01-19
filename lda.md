@@ -1,6 +1,6 @@
 ## Linear Discriminant Analysis
 
-LDA can be used for two-class or multi-class *classification* problems. LDA searches for the projection of a dataset which maximizes the **between class scatter to within class scatter** ratio of this projected dataset.
+LDA can be used for two-class or multi-class *classification* problems. LDA searches for the projection of a dataset which **maximizes the between class scatter to within class scatter ratio** of this projected dataset.
 
 ![Intuition](https://www.python-course.eu/images/Linear_Discriminant_Analysis_concept_illustration.png)
 
