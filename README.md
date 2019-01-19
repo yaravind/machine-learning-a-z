@@ -59,6 +59,7 @@ Induction refers to learning general concepts from specific examples. Deduction 
 We call data is high-dimensional if the number of features is greater than the number of observations or it could mean that you suspect there are noisy features that contain little information, or anything in between.
 
 ## Formulae
+
 Mean Squared Error
 ![Mean Squared Error](https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png)
 
