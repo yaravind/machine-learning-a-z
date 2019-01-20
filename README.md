@@ -1,7 +1,7 @@
 # machine-learning-a-z
 Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclhPfG31KRExnNovDGE-ipPpKp9nRe2V)
 
-Linear Models
+## Linear Models
 
 - [Linear Regression]
 - [Gradient Descent Algorithm](./linear/gradient-descent.md)
@@ -9,9 +9,9 @@ Linear Models
 - [Linear Discriminant Analysis](./linear/lda.md)
 - [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
-Non-linear Models
+## Non-linear Models
 
-- TBD
+- [Decision Trees](./non-linear/decision-tree.md)
 
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
 
