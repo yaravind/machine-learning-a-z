@@ -75,3 +75,7 @@ Mean Squared Error
 
 Partial Derivate for *m* and *b* (Used in Gradient Descent algorithm)
 ![Partial Derivative](https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png)
+
+## NLP
+
+https://monkeylearn.com/blog/definitive-guide-natural-language-processing/
