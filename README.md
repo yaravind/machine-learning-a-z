@@ -13,6 +13,8 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 ## Non-linear Models
 
 - [Decision Trees](./non-linear/decision-tree.md)
+- [Naive Bayes](./non-linear/naive-bayes.md)
+- [K-Nearest Neighbors](./non-linear/knn.md)
 
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
 
