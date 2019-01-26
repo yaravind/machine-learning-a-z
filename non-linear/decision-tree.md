@@ -1,8 +1,8 @@
 # Classification and Regression Trees (aka Decision Trees)
 
 - CART algorithm is used for *classification* or *regression* predictive modeling problems. It provides a foundation for other algorithms like bagged decision trees, random forest and boosted decision trees.
-    - For regression predictive modeling problems the cost function that is minimized to choose the split points is the *sum of squared error across all training samples that fall within a rectangle*
-    - For classification the *Gini cost function* is used which provides how pure the leaf nodes are i.e. how mixed the training data assigned to each node is
+  - For regression predictive modeling problems the cost function that is minimized to choose the split points is the *sum of squared error across all training samples that fall within a rectangle*
+  - For classification the *Gini cost function* is used which provides how pure the leaf nodes are i.e. how mixed the training data assigned to each node is
 - The model is represented as a binary tree. Each node represents a *single input variable (x)* and split point on that variable. The *leaf nodes of the tree contain an output variable (y) which is used to make prediction*.
 - It doesn't require any special data preparation other than good representation of the problem.
 - The final tree is stored to a file as a set of rules.
