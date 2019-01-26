@@ -1,4 +1,5 @@
 # machine-learning-a-z
+
 Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclhPfG31KRExnNovDGE-ipPpKp9nRe2V)
 
 ## Linear Models
@@ -15,7 +16,7 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
 
-### Two main classes of ML algorithms
+## Two main classes of ML algorithms
 
 Parametric
 
@@ -45,6 +46,7 @@ Another way to group ML algorithms is **by the way they learn**
 - Semi-Supervised
 
 ## Bias and Variance
+
 - All *learning* error can be broken down into bias or variance error
 - *Bias* and *Variance* provide the tools to understand the behavior of ML algorithms in the pursuit of predictive performance. Increasing the bias will decrease the variance. Increasing the variance will decrease the bias.
 - The *prediction* error for any ML algorithm can be broken down into 3 parts:
@@ -53,10 +55,14 @@ Another way to group ML algorithms is **by the way they learn**
     3. Irreducible error
 
 ## Induction and Deduction
+
 Induction refers to learning general concepts from specific examples. Deduction seeks to learn specific concepts from general rules.
 
 ## What is high dimensional data?
+
 We call data is high-dimensional if the number of features is greater than the number of observations or it could mean that you suspect there are noisy features that contain little information, or anything in between.
+
+> multiclass classification vs multilabel classification (where multiple labels are to be predicted for each instance. For more on Spark-based implementation for the multilabel classification, interested readers should refer to https://spark.apache.org/docs/latest/mllib-evaluation-metrics.html#multilabel-classification.)
 
 ## Formulae
 
