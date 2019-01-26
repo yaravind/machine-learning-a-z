@@ -13,3 +13,7 @@
 ## Spark
 
 - Supports multinominal NB and Bernoulli NB (usefule if the feature vectors are Binary) implementations
+
+## Reference
+
+- [Introduction with application](https://monkeylearn.com/blog/practical-explanation-naive-bayes-classifier/)
