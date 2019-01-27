@@ -17,6 +17,11 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 - [K-Nearest Neighbors](./non-linear/knn.md)
 - [Support Vector Machines](./non-linear/svm.md)
 
+## Others
+
+- [Ensemble Learning](./ensemble-learning.md)
+- [Batch, Iteration & Epock](./batch-iteration-epoch.md)
+
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
 
 ## Two main classes of ML algorithms
