@@ -1,6 +1,10 @@
 # Ensemble Learning Techniques
 
 - [Summary](#Summary)
+- [Bagging](#Bagging)
+- [Boosting](#Boosting)
+- [Stacking](#Stacking)
+- [Spark](#Spark)
 
 ## Summary
 
@@ -36,7 +40,7 @@ Bagging (short for Bootstrap Aggregating) is ensemble technique that uses bootsr
 3. The models run independently in parallel on different subsets
 4. We then combine the predictions from all the models to get the final prediction
 
-## Random Forest
+### Random Forest
 
 - Operate by constructing a multitude of decision trees at training time and outputting the class that is mode of the classes (classification) or mean prediction (regression) of the individual trees
 - Random decision forests correct for decision tree's habit of overfitting to their training set
@@ -85,10 +89,13 @@ We combine *weak classifiers* to get a more complext model with the help of **bo
 
 ## Stacking
 
-Invloves *training a learning algorithm* **to combine the predictions of several other learning algorithms** *.
+Invloves *training a learning algorithm* **to combine the predictions of several other learning algorithms**.
 
 ![Stacking](./ensemble-stacking.jpeg)
 
 ### Blending
 
 ## Spark
+
+- Supports two major ensemble algorithms: `GradientBoostedTrees` and `RandomForest`. Both use decision trees as their base models.
+- [XGBoost on Spark](https://xgboost.readthedocs.io/en/latest/jvm/xgboost4j_spark_tutorial.html)

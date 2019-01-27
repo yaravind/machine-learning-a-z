@@ -40,7 +40,7 @@ Benefits    | can work well even if the fit to the data isn't perfect |  /
 Limitations | by chosing a functional form these are highly constrained to the specific form | require more traing data to estimate the function
 Limitations | suited for simple problems | slower to train as often they have more parameters to train
 Limitations | in practice, unlikely to match the underlying mapping function | risk to overfit an harder to explain predictions
-Examples | Linear Regression, LDA, Perceptron | Decision Trees, Naive Bayes, VM, Neural Networks 
+Examples | Linear Regression, LDA, Perceptron | Decision Trees, Naive Bayes, VM, Neural Networks
 
 Another way to group ML algorithms is **by the way they learn**
 
@@ -61,11 +61,11 @@ Another way to group ML algorithms is **by the way they learn**
 
 Induction refers to learning general concepts from specific examples. Deduction seeks to learn specific concepts from general rules.
 
-## What is high dimensional data?
+## High dimensional data
 
 We call data is high-dimensional if the number of features is greater than the number of observations or it could mean that you suspect there are noisy features that contain little information, or anything in between.
 
-> multiclass classification vs multilabel classification (where multiple labels are to be predicted for each instance. For more on Spark-based implementation for the multilabel classification, interested readers should refer to https://spark.apache.org/docs/latest/mllib-evaluation-metrics.html#multilabel-classification.)
+> multiclass classification vs multilabel classification (where multiple labels are to be predicted for each instance. For more on Spark-based implementation for the multilabel classification, interested readers should refer to [Spark docs](https://spark.apache.org/docs/latest/mllib-evaluation-metrics.html#multilabel-classification.)
 
 ## Formulae
 
@@ -78,4 +78,4 @@ Partial Derivate for *m* and *b* (Used in Gradient Descent algorithm)
 
 ## NLP
 
-https://monkeylearn.com/blog/definitive-guide-natural-language-processing/
+- [NLP Definitive Guide](https://monkeylearn.com/blog/definitive-guide-natural-language-processing/)
