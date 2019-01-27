@@ -8,7 +8,6 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 - [Gradient Descent Algorithm](./linear/gradient-descent.md)
 - [Logistic Regression](./linear/logistic-regression.md)
 - [Linear Discriminant Analysis](./linear/lda.md)
-- [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
 ## Non-linear Models
 
@@ -20,7 +19,7 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 ## Others
 
 - [Ensemble Learning](./ensemble-learning.md)
-- [Batch, Iteration & Epock](./batch-iteration-epoch.md)
+- [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
 
