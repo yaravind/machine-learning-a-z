@@ -22,6 +22,7 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 - [Batch vs Iteration vs Epoch](./batch-iteration-epoch.md)
 
 >Use StandardScaler for normally distributed data, otherwise use MinMaxScaler
+> techniques like regularization, feature scaling, and cross-validation are used to avoid common pitfalls like under- and overfitting
 
 ## Two main classes of ML algorithms
 
