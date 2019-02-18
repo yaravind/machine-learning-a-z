@@ -22,6 +22,8 @@
   3.4. Get the most frequent class of these rows
   3.5. Return the predicted class
 
+> As we decrease K, we increase the chance of overfitting
+
 ## Reference
 
 - [Source of pseudocode](https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/)
