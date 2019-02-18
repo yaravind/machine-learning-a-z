@@ -50,7 +50,13 @@ Examples | Linear Regression, LDA, Perceptron | Decision Trees, Naive Bayes, VM,
 Another way to group ML algorithms is **by the way they learn**
 
 - Supervised
+  - classification
+    - binary classification: only one target value (transaction fraud or not)
+    - multi-class: target value is one of many descrete values
+    - multi-label: multiple target values (Tagging webpage based on their content)
+  - regression
 - Unsupervised
+  - used to explore and understand the strucutre and patterns in data
 - Semi-Supervised
 
 ## Bias and Variance
