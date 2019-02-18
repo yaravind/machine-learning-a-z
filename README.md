@@ -80,6 +80,20 @@ We call data is high-dimensional if the number of features is greater than the n
 
 > multiclass classification vs multilabel classification (where multiple labels are to be predicted for each instance. For more on Spark-based implementation for the multilabel classification, interested readers should refer to [Spark docs](https://spark.apache.org/docs/latest/mllib-evaluation-metrics.html#multilabel-classification.)
 
+## Data Preprocessig
+
+- Cleaning
+  - Dealing with missing values
+  - Dealing with erroneous data
+  - Dealing with outliers
+- Transformation
+  - Changing data types (discretization)
+  - Changing range of data values (normalization)
+  - Adding variables
+- Reduction
+  - Feature selection
+  - Sampling
+
 ## Formulae
 
 Mean Squared Error
