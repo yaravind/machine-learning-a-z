@@ -22,7 +22,25 @@
   3.4. Get the most frequent class of these rows
   3.5. Return the predicted class
 
-> As we decrease K, we increase the chance of overfitting
+## Pros & Cons
+
+Pros
+
+- Easy to interpret
+- Can be used as a baseline
+
+Cons
+
+- as the number of training data and/or features increase, the prediction becomes very slow as
+
+## Model Parameters
+
+- Number of neighbors (*k*)
+  - Model complexity
+  - As we decrease *k*, we increase the chance of overfitting
+- Metric
+  - Model fitting
+  - distance function between data points
 
 ## Reference
 
