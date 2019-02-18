@@ -4,6 +4,8 @@ Notebooks for [Machine Learning A-Z](https://www.youtube.com/playlist?list=PLclh
 
 ## Linear Models
 
+A linear model is a **sum of weighted variables** that predicts a target output value given an input data instance.
+
 - [Linear Regression]
 - [Gradient Descent Algorithm](./linear/gradient-descent.md)
 - [Logistic Regression](./linear/logistic-regression.md)
